@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20.event_propogation</title>
+    <style>
+        #grandparent
+        {
+            height: 300px;
+            width: 300px;
+            border: 2px solid red;
+            margin-left: 450px;
+            margin-top: 150px;
+        }
+        #parent
+        {
+            height: 200px;
+            width: 200px;
+            border: 2px solid orange;
+            margin-top:30px;
+            margin-left: 45px;
+        }
+        #child
+        {
+            height: 100px;
+            width: 100px;
+            border: 2px solid blue;
+            margin-top:50px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="grandparent">
+        <div id="parent">
+            <div id="child">
+
+            </div>
+        </div>
+    </div>
+    <script src="./20.event_propogation.js"></script>
+</body>
+</html>
