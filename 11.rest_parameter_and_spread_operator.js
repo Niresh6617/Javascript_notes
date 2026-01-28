@@ -33,17 +33,17 @@ const stuDetails={
 // console.log(sDetail);
 // console.log(typeof(sDetail));
 
-// //we can aplly array
-// //copying 
-// let arr1=[100,200,300,400,500]
-// let arrCopy=arr1;
-// console.log(arr1)
-// console.log(arr1===arrCopy);
+//we can aplly array
+//copying 
+let arr1=[100,200,300,400,500]
+let arrCopy=arr1;
+console.log(arr1)
+console.log(arr1===arrCopy);
 
-// //cloning
-// let[...arrclone]=arr1;
-// console.log(arrclone);
-// console.log(arr1===arrclone);
+//cloning
+let[...arrclone]=arr1;
+console.log(arrclone);
+console.log(arr1===arrclone);
 
 // // we can apply in object
 // //copying

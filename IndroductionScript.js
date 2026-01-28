@@ -32,4 +32,5 @@ console.log("a value is "+a);
 
 // to declare a variable in constant
 const c=1000;//We cannot perform re-declaration and re-initialization
+// and we have to declare and Intialize the value in a same line 
 console.log(c);
