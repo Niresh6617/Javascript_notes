@@ -14,3 +14,11 @@ console.log(10-"hi");//NAN
 console.log(10+"20");
 var c=30-"20";// numerical String
 console.log(c);
+
+// function fun(num1 , num2){
+//     return num1 + num2
+// }
+// let funcall = document.getElementById("content").innerHTML = fun()
+// console.log(funcall);
+
+// document.getElementById('content').innerHTML = "Niresh"
